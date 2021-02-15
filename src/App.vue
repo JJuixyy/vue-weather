@@ -139,4 +139,16 @@ input {
   justify-content: center;
   margin-left: 30px;
 }
+
+.not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  height: 25vh;
+}
+h3 {
+ font-size: 3rem;
+
+}
 </style>
