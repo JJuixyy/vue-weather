@@ -51,7 +51,7 @@ export default {
     getWeather: async function() {
       console.log(this.citySearch);
       const key = "ec80fe5c759a7923eb1c40f97cf4d4bf";
-      const callURL = `http://api.openweathermap.org/data/2.5/weather?q=${this.citySearch}&appid=${key}&units=metric`;
+      const callURL = `https://api.openweathermap.org/data/2.5/weather?q=${this.citySearch}&appid=${key}&units=metric`;
 
       //? APPEL A l'API avec un await dans un try
       try {
